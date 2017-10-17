@@ -3,5 +3,5 @@ ALTER EDIT-ME innerhtml = psuedosql WHILE LearnOpen() == True
 ...loading...
 error.
 Save(edit-me.txt);
-Learn();
-Success.
+If (Learn()=true) { 
+Submit edit-me.txt };      
